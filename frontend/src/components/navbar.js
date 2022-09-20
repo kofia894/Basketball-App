@@ -1,5 +1,7 @@
 import React from 'react'
-import { HiHome } from "react-icons/hi2";
+// import { HiHome } from "react-icons/hi2";
+import { HiHome } from "react-icons/hi";
+
 
 export default function navbar (){
     return (
