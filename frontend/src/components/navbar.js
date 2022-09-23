@@ -1,28 +1,27 @@
 import React from 'react'
 // import { HiHome } from "react-icons/hi2";
-import { HiHome } from "react-icons/hi";
+import { HiChartBar, HiHome,HiUser, HiUserGroup, HiOutlineUserCircle } from "react-icons/hi";
 
 
-export default function navbar (){
+export default function sidebar (){
     return (
-        <div> 
-            <div className=" container px-24 py-24 ">
-                <img className='logo' />
+      
+    <nav className="bg-[#16151f]">
+        <div className="max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div className="relative flex h-16 items-center justify-between">
+                <p className="text-white">Ashesi Basketball Association</p>
+                <input type="text"  id="price" className=" rounded-md  pl-7 pr-12 py-1 bg-[#363441]" placeholder="Search"></input>
 
-                <ul className=" flex flex-col space-y-12  " >
-
-                    <div className="flex justify-between  ">
-                        <HiHome /> 
-                        <li>Home</li> 
-                    </div>
-
-                    <li>Teams</li>
-                    <li>Players</li>
-                    <li>Games</li>
-                </ul>
+                <HiOutlineUserCircle className="text-slate-400 text-3xl"/>
+        
+         
             </div>
-
         </div>
+
+    
+     
+    </nav>
+
     )
 
 }
