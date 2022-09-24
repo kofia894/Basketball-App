@@ -7,21 +7,35 @@ import React from 'react'
 export default function highlights (){
     return (
       
-    <div className="container ">
-      <div className="bg-white w-3/12 h-2/5  ml-64 rounded-lg justify-end ;">
-          <p className= "mr-60">Picture</p>
-      </div>
-      <div className=" bg-white w-3/12 h-2/5  ml-64  rounded-lg justify-end ;">
-          <p className= "mr-60">Details</p>
-      </div>
-
-
-
-
+    <div className="container justify-center ml-12 mt-8 w-9/12  overflow-y-auto scrollbar-hide ">
+        
+    <div className="container mb-5">
+        <div className="bg-white rounded-t-xl h-40 mb-5;">
+            <p className= "mr-60">Picture</p>
+        </div>
+        <div className=" bg-white rounded-b-xl  h-20 ;">
+            <p className= "mr-60">Details</p>
+        </div>
     </div>
 
- 
+    <div className="container mb-5">
+        <div className="bg-white rounded-t-xl h-40 mb-5;">
+            <p className= "mr-60">Picture</p>
+        </div>
+        <div className=" bg-white rounded-b-xl  h-20 ;">
+            <p className= "mr-60">Details</p>
+        </div>
+    </div>
 
+    <div className="container mb-5">
+        <div className="bg-white rounded-t-xl h-40 mb-5;">
+            <p className= "mr-60">Picture</p>
+        </div>
+        <div className=" bg-white rounded-b-xl  h-20 ;">
+            <p className= "mr-60">Details</p>
+        </div>
+    </div>
+    </div>
     )
 
 }

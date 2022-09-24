@@ -15,9 +15,11 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="container md:flex">
+    <div className="container md:flex bg-[#16151f]">
 
       <Router>
+        {/* <Sidebar />
+         */}
         <Routes>
           <Route index element={<Home />} />
           <Route path={'/teams'} element={<Home />} />
@@ -25,7 +27,7 @@ function App() {
 
       </Router>
 
-      <Navbar />
+      
       
       {/* <div className=" flex  ">
         <Sidebar />

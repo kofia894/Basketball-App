@@ -5,7 +5,8 @@ import { HiCalendar, HiChartBar, HiHome,HiUser, HiUserGroup } from "react-icons/
 
 export default function sidebar (){
     return (
-        <div className="bg-[#16151f] w-1/6 h-screen  rounded-lg text-base">
+        <div className=" bg-[#16151f] w-1/6 h-screen text-base ">
+            <h5 className="text-center text-white mt-5">Djren Basketball Association</h5>
             <ul className=" flex flex-col space-y-12 p-10" >
 
                 <div className="flex items-center space-x-4 rounded-lg ">
