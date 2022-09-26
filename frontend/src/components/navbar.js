@@ -3,16 +3,14 @@ import React from 'react'
 import { HiChartBar, HiHome,HiUser, HiUserGroup, HiOutlineUserCircle,HiMenu,HiSearch } from "react-icons/hi";
 
 
-export default function sidebar (){
+export default function navbar (){
     return (
       
     <nav className="bg-[#16151f] w-screen">
-        <div className=" flex justify-between l px-2 sm:px-6 lg:px-8 ">
-
-          
+        <div className=" flex justify-between px-2 sm:px-6 lg:px-8 ">
             
             <div className=" flex h-16 items-center lg:hidden ">
-                <HiMenu className="text-slate-400 text-3xl"/>
+                <button><HiMenu className="text-slate-400 text-3xl"/></button>
             </div>
 
               {/* <div className="">
@@ -20,8 +18,8 @@ export default function sidebar (){
             </div> */}
 
             <div className=" flex  h-16 items-center lg:justify-end">
-                <HiSearch className="text-slate-400 text-3xl mr-10 lg:hidden "/>
-                <HiOutlineUserCircle className="text-slate-400 text-3xl "/>
+                <button className="mr-10"><HiSearch className="text-slate-400 text-3xl  lg:hidden "/></button>
+                <button className="lg:ml-[1400px] mr-5" ><HiOutlineUserCircle className="text-slate-400 text-3xl "/></button>
             </div>
         </div>
 

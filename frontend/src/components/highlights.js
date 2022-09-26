@@ -10,29 +10,29 @@ export default function highlights (){
     <div className="container justify-center ml-12 mt-8 w-9/12  overflow-y-auto scrollbar-hide ">
         
     <div className="container mb-5">
-        <div className="bg-white rounded-t-xl h-40 mb-5;">
-            <p className= "mr-60">Picture</p>
+        <div className="container rounded-t-xl ">
+           <img className =" rounded-t-xl object-cover h-48 w-full"src="/img/bball.jpg" />
         </div>
-        <div className=" bg-white rounded-b-xl  h-20 ;">
-            <p className= "mr-60">Details</p>
-        </div>
-    </div>
-
-    <div className="container mb-5">
-        <div className="bg-white rounded-t-xl h-40 mb-5;">
-            <p className= "mr-60">Picture</p>
-        </div>
-        <div className=" bg-white rounded-b-xl  h-20 ;">
-            <p className= "mr-60">Details</p>
+        <div className=" bg-[#252836] rounded-b-xl  h-24 ;">
+            <p className= "text-center text-white">Details</p>
         </div>
     </div>
 
     <div className="container mb-5">
-        <div className="bg-white rounded-t-xl h-40 mb-5;">
-            <p className= "mr-60">Picture</p>
+        <div className="container rounded-t-xl ">
+           <img className =" rounded-t-xl object-cover h-48 w-full"src="/img/bball.jpg" />
         </div>
-        <div className=" bg-white rounded-b-xl  h-20 ;">
-            <p className= "mr-60">Details</p>
+        <div className=" bg-[#252836] rounded-b-xl  h-24 ;">
+            <p className= "text-center text-white">Details</p>
+        </div>
+    </div>
+
+    <div className="container mb-5">
+        <div className="container rounded-t-xl ">
+           <img className =" rounded-t-xl object-cover h-48 w-full"src="/img/bball.jpg" />
+        </div>
+        <div className=" bg-[#252836] rounded-b-xl  h-24 ;">
+            <p className= "text-center text-white">Details</p>
         </div>
     </div>
     </div>
