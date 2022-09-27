@@ -1,44 +1,38 @@
 import './App.css';
-import Sidebar from './components/sidebar';
-import Navbar from './components/navbar'
-import Maincards from './components/maincards';
-import Higlights from './components/highlights';
 
 // Routing
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 /* Pages */
 import Home from './pages/Home';
-
+import Teams from './pages/Teams';
+import Players from './pages/Players';
+import PlayerDetails from './pages/PlayerDetails';
 /* End of pages */
+
+/* Sidebar component */
+import Sidebar from './components/Sidebar';
+
 
 
 function App() {
   return (
-    <div className="container md:flex bg-[#16151f]">
+    <div className="lg:flex bg-[#232035]"> 
 
       <Router>
-        {/* <Sidebar />
-         */}
+        <Sidebar />
+        
         <Routes>
           <Route index element={<Home />} />
-          <Route path={'/teams'} element={<Home />} />
+          <Route path={'/teams'} element={<Teams />} />
+          <Route path={'/players'} element={<Players />} />
+          <Route path={'/players/:id'} element={<PlayerDetails />} />
+          <Route path={'/players'} element={<Players />} />
         </Routes>
 
       </Router>
 
       
-      
-      {/* <div className=" flex  ">
-        <Sidebar />
-
-        <Maincards/>
-      </div>
-
-      <Higlights /> */}
-      
-      
-     
      
     </div>
   );
