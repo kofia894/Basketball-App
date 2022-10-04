@@ -8,10 +8,10 @@ const Sidebar = () => {
 
      const sidebarMenu = [
           { id:1, name: "Home", icon: HomeIcon, path: '/' },
-          { id:2, name: "Players", icon: UserIcon, path: '/tasks'  },
-          { id:3, name: "Teams", icon: UserGroupIcon, path: '/projects' },
-          { id:4, name: "Standings", icon: PresentationChartBarIcon, path: '/notes' },
-          { id:5, name: "Calendar", icon: CalendarDaysIcon, path: '/settings' },
+          { id:2, name: "Players", icon: UserIcon, path: '/Players'  },
+          { id:3, name: "Teams", icon: UserGroupIcon, path: '/Teams' },
+          { id:4, name: "Standings", icon: PresentationChartBarIcon, path: '/Standings' },
+          { id:5, name: "Calendar", icon: CalendarDaysIcon, path: '/Calendar' },
      ];
 
      const [showSidebar, setShowSidebar] = useState(false);
