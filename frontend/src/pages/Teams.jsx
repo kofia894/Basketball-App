@@ -3,7 +3,7 @@ import Navbar from '../components/NavbarComp/NavBar'
 const Teams = () => {
      return ( 
           <>
-               <div className="w-full max-w-full text-white h-screen pt-16 px-5 lg:pt-5 lg:px-12 bg-[#1F1D2B]">
+               <div className="w-full max-w-full text-white min-h-screen pt-16 pb-5 px-5 lg:pt-5 lg:px-12 bg-[#1F1D2B]">
                     <Navbar />
                     <h2 className="text-2xl font-semibold mt-5 mb-3">All Teams</h2>
                     <hr></hr>

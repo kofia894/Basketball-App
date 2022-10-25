@@ -15,8 +15,8 @@ const LargeCard = () => {
 
                     </div>
 
-                    <div className="shrink-0  h-64 -mt-10 w-36 lg:w-56  grayscale  overflow-hidden">
-                          <img className="object-contain h-full w-full " src="/img/pg13trans2.png" /> 
+                    <div className="shrink-0 h-64 -mt-10 w-36 lg:w-56  grayscale  overflow-hidden">
+                          <img className="object-contain  h-full w-full " src="/img/pg13trans2.png" alt="" /> 
                     </div>
                </div>
           </>
