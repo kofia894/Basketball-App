@@ -1,0 +1,52 @@
+[
+     {
+          "id":1,
+          "name":"Kofi Omari",
+          "team":"Knights",
+          "number":35,
+          "position":"C",
+          "height":204,
+          "weight":95,
+          "country":"Congo"
+     },
+     {
+          "id":2,
+          "name":"Andrew Duncan",
+          "team":"Warriors",
+          "number":2,
+          "position":"PG",
+          "height":179,
+          "weight":78,
+          "country":"Ghana"
+     },
+     {
+          "id":3,
+          "name":"Anthony Basingnaa",
+          "team":"Knights",
+          "number":11,
+          "position":"PF",
+          "height":187,
+          "weight":87,
+          "country":"Burkina Faso"
+     },
+     {
+          "id":4,
+          "name":"Kebede Martey",
+          "team":"Knights",
+          "number":10,
+          "position":"SG",
+          "height":186,
+          "weight":79,
+          "country":"Ghana"
+     },
+     {
+          "id":5,
+          "name":"Michael Gbologah",
+          "team":"Blazers",
+          "number":8,
+          "position":"SF",
+          "height":184,
+          "weight":80,
+          "country":"Togo"
+     }
+]
